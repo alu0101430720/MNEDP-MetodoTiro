@@ -130,3 +130,15 @@ function [y, z] = regla_trap_imp(t, y, z, tau, N)
         z(:, k+2) = A \ explicita_z;
     end
 end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+function f = der(t, y)
+    % F
+    f = [y(2); -2*y(1)*y(2)/t];
+end
+
+function g = zder(t, z, y)
+    % G
+    g = [z(2); -2*(y(1)*z(2) + y(2)*z(1))/t];
+end
