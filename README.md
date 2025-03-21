@@ -15,6 +15,8 @@
 
 Este repositorio contiene un conjunto de scripts/funciones de MATLAB que implementan métodos numéricos para resolver problemas de valor de contorno (PVC) mediante el método del tiro. La implementación incluye métodos numéricos explícitos e implícitos para resolver los problemas de valor inicial (PVI) requeridos por el método del tiro.
 
+- NOTA: posiblemente los códigos puedan ser optimizados. En esta implementación me he centrado en la funcionalidad, atendiendo a los plazos marcados.
+
 ## Planteamiento del Problema
 
 El código resuelve un problema de valor de contorno no lineal de segundo orden de la forma:
