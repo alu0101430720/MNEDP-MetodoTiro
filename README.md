@@ -47,8 +47,6 @@ Se implementan cuatro métodos numéricos para resolver los PVIs:
 - `main.m`: Función principal, gestiona la entrada del usuario
 - `MetodoDeTiro.m`: Implementa el algoritmo del método del tiro
 - `runMetodosNumericos.m`: Contiene implementaciones de los cuatro métodos numéricos
-- `der.m`: Define la función derivada F para la ecuación original
-- `zder.m`: Define la función derivada G para el PVI(xi)
 - `graficar.m`: Funciones para graficar las soluciones y métricas de error para un solo método
 - `graficarTodo.m`: Funciones para graficar y comparar todos los métodos implementados
 
