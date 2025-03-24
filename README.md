@@ -49,6 +49,8 @@ Se implementan cuatro métodos numéricos para resolver los PVIs:
 - `runMetodosNumericos.m`: Contiene implementaciones de los cuatro métodos numéricos
 - `graficar.m`: Funciones para graficar las soluciones y métricas de error para un solo método
 - `graficarTodo.m`: Funciones para graficar y comparar todos los métodos implementados
+- `guardarFichero.m`: Función para almacenar los datos en un .txt
+- `guardarFichero_siempre.m`: Modificación de la función anterior
 
 ## Uso
 
